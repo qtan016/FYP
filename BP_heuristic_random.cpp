@@ -108,7 +108,7 @@ int main(int argc, char *argv[]) {
     cin >> NumMatrices;
     for (int i = 0; i < NumMatrices; i++) {
         ReadTargetMatrix();
-        while (XorCount == 0 || XorCount >= 95){
+        while (XorCount == 0 || XorCount >= 96){
         refreshDist();
         InitBase();
         XorCount = 0;
